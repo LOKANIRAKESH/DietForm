@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Details for diet plan</title>
+    <link rel="stylesheet" href="indexform.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Diet Form</h1>
+    <div class="row1">
+      <div class="row1col1">
+        <table>
+        <tr>
+          <td colspan="2" style="text-align:center">
+            <h2>Personal Data</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>First Name</td>
+          <td>
+            <input type="text" name="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <select>
+              <option value="Select">-- Select --</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>E-mail</td>
+          <td><input type="email" /></td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Height</td>
+          <td><input type="text" /></td>
+        </tr>
+        </table>
+      </div>
+      <div class="row1col2">
+        <table>
+        <tr>
+          <td colspan="4" style="text-align: center;">
+            <h2>Medical History</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="diabetes">Diabetes</label>
+          </td>
+          <td>
+            <input type="radio">
+          </td>
+          <td>
+            <label for="bloodpresure">Blood Presure</label>
+          </td>
+          <td>
+            <input type="radio" name="bllodpresure">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="hypertension">Hypertension</label>
+          </td>
+          <td>
+            <input type="radio" name="hypertension">
+          </td>
+          <td>
+            <label for="sugar">Sugar</label>
+          </td>
+          <td>
+            <input type="radio">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="thyroid">Thycoid</label>
+          </td>
+          <td>
+            <input type="radio" name="thyroid">
+          </td>
+          <td>
+            <label for="acidity">Acidity</label>
+          </td>
+          <td>
+            <input type="radio">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="pcod">PCOD</label>
+          </td>
+          <td>
+            <input type="radio">
+          </td>
+          <td>
+            <label for="alergies">Alergies</label>
+          </td>
+          <td>
+            <input type="radio" name="alergies">
+          </td>
+        </tr>
+        </table>
+      </div>
+    </div>
+    <div class="row2">
+        <table>
+          <tr >
+            <td colspan="5" style="text-align: center;"><h2 >Diet Habits</h2></td>
+          </tr>
+          <tr colspan="4">
+            <td>Meal Frequency</td>
+            <td>
+                <input type="radio" name="mealfrequency">
+                <label for="mealfrequency">1 meal</label>
+            </td>
+            <td>
+                <input type="radio" name="mealfrequency">
+                <label for="mealfrequency">2 meal</label>
+            </td>
+            <td>
+                <input type="radio" name="mealfrequency">
+                <label for="mealfrequency">3 meal</label>
+            </td>
+            <td>
+                <input type="radio" name="mealfrequency">
+                <label for="mealfrequency"> >3 meal</label>
+            </td>
+          </tr>
+          <tr colspan="4">
+            <td>Meal Timings</td>
+            <td>
+              <label for="Morning">Morning</label>
+            <input type="time">
+            </td>
+            <td>
+              <label for="Afternoon">Afternoon</label>
+            <input type="time">
+            </td>
+            <td>
+              <label for="Night">Night</label>
+            <input type="time">
+            </td>
+          </tr>
+          <tr colspan="4">
+            <td>
+              Snacking Habits
+            </td>
+            <td>
+              <label for="Rarely">Rarely</label>
+              <input type="radio" name = "snack">
+            </td>
+            <td>
+              <label for="Occasionally">Occasionally</label>
+              <input type="radio" name="snack">
+            </td>
+            <td>
+              <label for="Frequently">Frequently</label>
+              <input type="radio" name="snack">
+            </td>
+          </tr>
+          <tr colspan="4">
+            <td>Breakfast Regularity</td>
+            <td>
+              <label for="Daily">Daily</label>
+              <input type="radio" name="breakfast">
+            </td>
+            <td>
+              <label for="Sometimes">Sometimes</label>
+              <input type="radio" name="breakfast">
+            </td>
+            <td>
+              <label for="Skipoften">Skip often</label>
+              <input type="radio" name="breakfast">
+            </td>
+          </tr>
+          <tr colspan="4">
+            <td>Protein Intake</td>
+            <td>
+              <label for="protein">Eggs</label>
+              <input type="radio" name="eggs">
+            </td>
+            <td>
+              <label for="protein">Meat</label>
+              <input type="radio" name="meat">
+            </td>
+            <td>
+              <label for="protein">Supplements</label>
+              <input type="radio" name="Supplements">
+            </td>
+            <td>
+              <label for="protein">None</label>
+              <input type="radio" name="none">
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div class="row3">
+      <div>
+      <h2>LifeStyle & Activity</h2>
+      <table>
+        <tr>
+          <td>
+            <input type="radio" name="noexercise">
+          <label for="noexercise">No Excercise</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="noexercise">
+            <label for="lightly">Lightly active</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="noexercise">
+            <label for="Moderately">Moderately active</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="noexercise">
+            <label for="Veryactive">Very Active</label>
+          </td>
+        </tr>
+      </table>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <h2>Goals/Preferences</h2>
+          </tr>
+          <tr>
+              <td>
+                <input type="radio" name="goal1">
+              <label for="weightloss">Weight Loss</label>
+              </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="goal2">
+              <label for="weightgain">Weight Gain</label>
+            </td>
+          </tr>
+          <tr>
+            <input type="radio" name="goal3">
+              <label for="Maintain weigh">Maintain Weight</label>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="goal4">
+              <label for="Improve Energy">Improve Energy</label>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
